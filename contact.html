@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon and Spa Website - NehaVaiday24</title>
+
+  <!-------------------------------CSS FILE------------------------------------>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive-design.css">
+
+  <!-------------------------------BOOTSTRAP CDN--------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-------------------------------FONT AWESOME CDN--------------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <!---------------------------------NAVBAR-------------------------------------------------------------->
+  <header class="nav-header">
+    <div class="container">
+      <div class="nav-design">
+        <div class="nav logo">
+          <img src="images/logo.svg" alt="Navbar Logo">
+        </div>
+
+        <div class="navbar-content">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+
+          <!-- Hamburger Menu Icon -->
+          <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i> <!-- ☰ Icon -->
+          </div>
+
+          <!-- Close Button (Inside Menu) -->
+          <div class="close-menu" id="closeMenu">
+              <i class="fas fa-times"></i> <!-- ✖ Icon -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!----------------------------------BANNER SECTION-------------------------------------->
+  <section class="banner-section">
+    <div class="container">
+      <div class="banner-content">
+        <h1>Experience luxury, relaxation, and beauty all in one place.
+        </h1>
+        <p>Indulge in luxury at our salon and spa, where beauty meets relaxation. From soothing massages to expert styling, we offer top-tier services in a serene setting. Let us pamper you!</p>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--------------------------------------CONTACT US SECTION------------------------------------>
+  <section class="contact-section animate-on-scroll">
+    <div class="contact-container">
+      <div class="top-heading">
+        <h2>Contact and Visit </h2>
+        <p>If you have any issue, you can visit the salon or contact us.</p>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="contact-map">
+      <div class="row">
+        <!-- Form Section -->
+        <div class="col-md-6" id="form-content">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="mb-3">
+              <label id="form-title">Your Name</label>
+              <input type="text" class="form-control" placeholder="Enter Your Name" id="form-subtitle">
+            </div>
+            <div class="mb-3">
+              <label id="form-title">Phone Number</label>
+              <input type="text" class="form-control" placeholder="Enter Your Phone Number" id="form-subtitle">
+            </div>
+            <div class="mb-3">
+              <label id="form-title">Your Query</label>
+              <textarea class="form-control" rows="3" placeholder="Enter your query here!" id="form-subtitle"></textarea>
+            </div>
+            <button class="btn my-custom-btn">Submit</button>
+          </form>
+        </div>
+    
+        <!-- Map Section -->
+        <div class="col-md-6 animate-on-scroll" id="map-content">
+          <h2>Visit Us</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.7017668614!2d72.71412843544772!3d19.08248221173264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1742118703798!5m2!1sen!2sin" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------FOOTER SECTION---------------------------------------->
+  <section class="footer-section">
+    <div class="footer-container">
+      <div class="footer-content">
+        <img src="images/logo.svg" alt="">
+        <div class="content">
+          <p class="paragraph">Experience luxury, relaxation, and beauty all in one place.</p>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <h3 class="heading">Get in Touch</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <ul>
+          <li>
+            <h3 class="heading">Contact Us</h3>
+            <p class="head">Phone: +1 8485023095</p>
+          </li>
+          <li>
+            <h3 class="heading">Email Us</h3>
+            <p class="head">Email: spasalon@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <ul>
+          <li>
+            <h3 class="heading">Address</h3>
+            <p class="head">Mumbai-425823</p>
+          </li>
+        </ul>
+
+        <div class="social-content">
+          <h3 class="heading">Follow Us</h3>
+          <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <div class="bottom-content">
+    <p>@copyright: 2025 - NehaVaiday24. All are reserved</p>
+  </div>
+
+  <!----------------------------------JS FILE------------------------------------------->
+  <script src="main.js"></script>
+
+  <!----------------------------------BOOTSTRAP JS CDN--------------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
