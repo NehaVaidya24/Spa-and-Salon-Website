@@ -1,0 +1,254 @@
+/*Navbar*/
+@media (max-width: 768px) {
+  .navbar-content ul {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dc91a9;
+    transition: right 0.3s ease-in-out;
+    z-index: 100;
+  }
+
+  .navbar-content ul.active {
+    right: 0;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 101;
+    color: #ffffff;
+  }
+
+  .close-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 101;
+    color: #ffffff;
+  }
+
+  .navbar-content ul.active + .close-menu {
+    display: block;
+  }
+
+  .navbar-content ul li {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+/*Banner Section*/ 
+@media (max-width: 1024px) {
+  .banner-content h1 {
+    font-size: 47px;
+    margin-left: 5%;
+  }
+  
+  .banner-content p {
+    color: #ccc; /* Soft beige color for p */
+    font-size: 13px;
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 28px;
+    width: 400px;
+    padding-top: 40px;
+  }
+  
+  .banner-content p {
+    color: #ccc; /* Soft beige color for p */
+    font-size: 12px;
+    margin-left: 6%;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .cta-button {
+    width: 250px;
+    font-size: 15px;
+  }
+}
+
+/*Service Section*/
+@media (max-width: 768px) {
+  .service-section .top-heading h2 {
+    font-size: 25px;
+  }
+  
+  .service-section .top-heading p {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+
+/*About Section*/
+@media (max-width: 1024px) {
+  .stats {
+    gap: 10px;
+    margin: 5px 0;
+  }
+  
+  .stat-item h3 {
+    font-size: 23px;
+  }
+  
+  .stat-item p {
+    font-size: 15px;
+  }
+  
+  .stat-item p strong {
+    font-size: 17px;
+  }
+  
+  .about-container .btn {
+    width: 150px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .main-title {
+    font-size: 26px;
+  }
+  
+  .about-text p {
+    font-size: 13px;
+  }
+
+  .about-images {
+    display: none;
+  }
+
+  .stats {
+    gap: 14px;
+    margin: 3px 0;
+  }
+  
+  .stat-item h3 {
+    font-size: 19px;
+  }
+  
+  .stat-item p {
+    font-size: 15px;
+  }
+  
+  .stat-item p strong {
+    font-size: 15px;
+  }
+  
+  .about-container .btn {
+    width: 130px;
+    font-size: 13px;
+  }
+}
+
+/*Artist Section*/
+@media (max-width: 768px) {
+  .artist-section .top-heading h2 {
+    font-size: 25px;
+  }
+  
+  .artist-section .top-heading p {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .artist-section .artist-template {
+    gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+/*Testimonial Section*/
+@media (max-width: 768px) {
+  .testimonial-section .top-heading h2 {
+    font-size: 25px;
+  }
+  
+  .testimonial-section .top-heading p {
+    width: 300px;
+    font-size: 15px;
+  }
+  
+  .testimonial-card {
+    max-width: 450px;
+  }
+
+  .testimonial-card p {
+    font-size: 14px;
+  }
+
+  .carousel-indicators {
+    transform: translateX(-90%);
+  }
+}
+
+/*FAQS Section*/
+@media (max-width: 768px) {
+  .faq-section .top-heading h2 {
+    font-size: 25px;
+  }
+  
+  .faq-section .top-heading p {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .faq-template-section {
+    width: 80%;
+    margin-left: 12%;
+  }
+
+  .faq-template-section .accordion-header {
+    font-size: 15px;
+  }
+  
+  .faq-template-section .accordion-body {
+    font-size: 13px;
+  }
+}
+
+/*Footer section*/
+@media (max-width: 768px) {
+  .footer-section {
+    padding: 20px;
+    height: 700px;
+    padding-top: 50px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-content .head {
+    font-size: 13px;
+  }
+
+  .social-content {
+    align-items: flex-start;
+  }
+}
